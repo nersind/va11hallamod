@@ -12,7 +12,10 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, VallhallaMod.MOD_ID);
 
-    //ingredients
+    //ingredients&other_stuff
+    public static final RegistryObject<Item> BANKA = ITEMS.register("banka",
+            () -> new Item(new Item.Properties().tab(ModTab.VALLHALLA_TAB)));
+
     public static final RegistryObject<Item> ADELHYDE = ITEMS.register("adelhyde",
             () -> new Item(new Item.Properties().tab(ModTab.VALLHALLA_TAB)));
     public static final RegistryObject<Item> BRONSONEXT = ITEMS.register("bronson_extract",
@@ -22,6 +25,10 @@ public class ModItems {
     public static final RegistryObject<Item> KARMOTRINE = ITEMS.register("karmotrine",
             () -> new Item(new Item.Properties().tab(ModTab.VALLHALLA_TAB)));
     public static final RegistryObject<Item> PWDDELTA = ITEMS.register("powdered_delta",
+            () -> new Item(new Item.Properties().tab(ModTab.VALLHALLA_TAB)));
+    public static final RegistryObject<Item> ICE = ITEMS.register("ice",
+            () -> new Item(new Item.Properties().tab(ModTab.VALLHALLA_TAB)));
+    public static final RegistryObject<Item> AGE = ITEMS.register("age",
             () -> new Item(new Item.Properties().tab(ModTab.VALLHALLA_TAB)));
     //проникновение ))))
     public static final RegistryObject<Item> BADTOUCH = ITEMS.register("badtouch",

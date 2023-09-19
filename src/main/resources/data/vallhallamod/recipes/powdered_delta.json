@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "vallhallamod:banka"
+    }
+  ],
+  "result": {
+    "item": "vallhallamod:powdered_delta",
+    "count": 1
+  }
+}

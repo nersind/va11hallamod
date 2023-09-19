@@ -1,11 +1,15 @@
 {
   "itemGroup.vallhallatab": "VA-11 HALL-A хрень",
 
+  "item.vallhallamod.banka": "Пустая банка",
+
   "item.vallhallamod.adelhyde": "Адельгид",
   "item.vallhallamod.bronson_extract": "Экстракт Бронсона",
   "item.vallhallamod.flanergide": "Фланергид",
   "item.vallhallamod.karmotrine": "Кармотрин",
   "item.vallhallamod.powdered_delta": "Порошковая Дельта",
+  "item.vallhallamod.ice": "Кубики льда",
+  "item.vallhallamod.age": "Время лол",
 
   "item.vallhallamod.badtouch": "Проникновение"
 }

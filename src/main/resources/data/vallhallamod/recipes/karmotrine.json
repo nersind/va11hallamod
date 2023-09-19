@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "vallhallamod:age"
+    },
+    {
+      "item": "vallhallamod:banka"
+    }
+  ],
+  "result": {
+    "item": "vallhallamod:karmotrine",
+    "count": 1
+  }
+}
